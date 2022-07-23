@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fc86870054e04f478259915e139ab3ba" Name="Diagram1">
+        <EntityTypeShape EntityType="datadevoteeModel.Application" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="datadevoteeModel.Category" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="datadevoteeModel.CategoryMapping" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="datadevoteeModel.SubCategory" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <AssociationConnector Association="datadevoteeModel.FK__CategoryM__AppID__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="datadevoteeModel.FK__CategoryM__Categ__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="datadevoteeModel.FK__SubCatego__CateI__6477ECF3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
